@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Research and Design in Engineering Physics"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Andrew Cote"
+description              : "Mav, it's too close for missiles. Switching to guns."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : anderote/anderote.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -47,6 +47,9 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -77,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Andrew Cote"
+  avatar           : "images/me1.jpg"
+  bio              : "Physics guy"
+  location         : "Berlin"
   email            :
   uri              :
   bitbucket        :
@@ -179,13 +182,13 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -242,6 +245,52 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _portfolio
+  - scope:
+      path: "_portfolio"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# portfolio setup
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
