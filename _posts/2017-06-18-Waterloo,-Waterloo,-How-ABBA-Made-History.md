@@ -1,7 +1,6 @@
 ---
 categories: blog
 author: anderote
-layout: single
 header:
   image: /images/waterloo.jpg
   caption: "The nearest run thing you ever saw in your life" - Duke of Wellington
