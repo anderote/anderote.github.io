@@ -1,7 +1,7 @@
 ---
 categories: blog
 author: anderote
-layout: default
+layout: single
 ---
 
 The night before the Battle of Waterloo it was raining hard, a wet and dreary Saturday that soaked the mud and flooded the fields of the small town of Waterloo just south of Brussels. It seemed a rather inauspicious night, after hard fighting for several days prior, the crowded armies of Europe stuck to their encampments, waiting to see which army would claim mastery of all Europe. Indeed, much as it was the rainy Saturday of the 1974 Eurovision song contest finale, after fierce competition from the European contestants in the crowded seaside resort town of Brighton, UK, where the continent eagerly awaited Europe's next proclaimed singing champion.
