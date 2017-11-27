@@ -11,7 +11,7 @@ title                    : "Research and Design in Engineering Physics"
 title_separator          : "-"
 name                     : "Andrew Cote"
 description              : "Mav, it's too close for missiles. Switching to guns."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://andrewcote.ca"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : anderote/anderote.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -49,6 +49,7 @@ atom_feed:
 
 theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
 
 # SEO Related
 google_site_verification :
