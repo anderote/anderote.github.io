@@ -11,7 +11,7 @@ title                    : "Research and Design in Engineering Physics"
 title_separator          : "-"
 name                     : "Andrew Cote"
 description              : "Mav, it's too close for missiles. Switching to guns."
-url                      : "https://andrewcote.ca"
+url                      : "https://www.andrewcote.ca"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : anderote/anderote.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
