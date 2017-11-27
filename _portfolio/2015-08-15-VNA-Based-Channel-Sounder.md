@@ -1,5 +1,24 @@
 ---
 categories: projects
+title: "Mobile VNA Channel Sounding"
+excerpt: "Modelling microcell environments at 60 GHz for the next generation in communications infrastructure"
+sidebar:
+  - title: "Role"
+    text: "Research and Development Engineer"
+  - title: "Responsibilites"
+    text: "Design and testing of mobile channel sounding and insertion loss measurment experiment. Running experiments, assessing results, developing experimental procudre."
+
+gallery:
+  - url: /images/proj-resources/rsl/bm.jpg
+    image_path: images/proj-resources/rsl/bm.jpg
+    alt: "Block-model diagram"
+  - url: /images/proj-resources/igen230/core.jpg
+    image_path: images/proj-resources/igen230/core.jpg
+    alt: "The two microcontrollers result"
+
+header:
+  image: /images/proj-resources/rsl/channel-sounding2.jpg
+  teaser: /images/proj-resources/rsl/robot.jpg
 ---
 
 # Mobile 60 GhZ Indoor Insertion Loss Testing Apparatus and Channel Sounder
@@ -63,7 +82,6 @@ In our experiment, we used a long length of fiber-optic cable to transmit a refe
 
 Experimental procedure consisted of establishing a measurement track in an urban environment, mapping nearby buildings with a laser rangefinder, then stepping the VNA receiver cart along the measurement track. At each interval the Receiver directional horn would step through 5 degree increments of a full 360 sweep, through a computer controlled azimuthal motor. The transmission parameters at each angle were recorded and then processed in MATLAB to reconstruct the Angle of Arrival dependence of the radio environment. It was necessary to ensure precise alignment of the transmitter antenna and receiver horn in terms of elevation angle and height - misalignments would throw off assumptions behind the model, and reduce the accuracy of our findings. 
 
-<img src="../../images/proj-resources/rsl/channel-sounding2.jpg" alt="Channel Sounder" align="middle">
 
 ## The Result and Followup
 
