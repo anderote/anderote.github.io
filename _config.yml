@@ -82,10 +82,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Andrew Cote"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Research and Design in Engineering Physics"
+  location         : "Vancouver"
   email            :
   uri              :
   bitbucket        :
