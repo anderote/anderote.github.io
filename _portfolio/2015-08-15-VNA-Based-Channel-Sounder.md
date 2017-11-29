@@ -9,16 +9,11 @@ sidebar:
     text: "Design and testing of mobile channel sounding and insertion loss measurment experiment. Running experiments, assessing results, developing experimental procudre."
 
 gallery:
-  - url: /images/proj-resources/rsl/bm.jpg
-    image_path: images/proj-resources/rsl/bm.jpg
-    alt: "Block-model diagram"
-  - url: /images/proj-resources/igen230/core.jpg
-    image_path: images/proj-resources/igen230/core.jpg
-    alt: "The two microcontrollers result"
+
 
 header:
   image: /images/proj-resources/rsl/channel-sounding2.jpg
-  teaser: /images/proj-resources/rsl/robot.jpg
+  teaser: /images/proj-resources/rsl/channel-sounding2_thumb.jpg
 ---
 
 # Mobile 60 GhZ Indoor Insertion Loss Testing Apparatus and Channel Sounder

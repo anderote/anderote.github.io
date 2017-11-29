@@ -1,7 +1,25 @@
 ---
+categories: projects
 title: "Statistical Analysis of LEO Satellites"
-excerpt: "Slaying Big Datasets with MATLAB for Elon"
-author: Andrew Cote 
+excerpt: "Visualizing Line of Sight statistics for low earth orbit satellites"
+sidebar:
+  - title: "Role"
+    text: "Researcher"
+  - title: "Responsibilites"
+    text: "Running orbital simulations in STK, cleaning and analyzing data in MATLAB, and making cool plots."
+
+gallery:
+  - url: /images/proj-resources/rsl/stk.jpg
+    image_path: images/proj-resources/rsl/stk.jpg
+    alt: "Running LEO Simulations"
+  - url: /images/proj-resources/rsl/plot2.jpg
+    image_path: images/proj-resources/rsl/plot2.jpg
+    alt: "Summarizing Statistics for Line of Sight"
+
+header:
+  image: /images/proj-resources/rsl/plot1.jpg
+  teaser: /images/proj-resources/rsl/plot1.jpg
+
 ---
 
 # Modelling LEO Satellites in STK and Analyzing Summary Orbital Statistics
@@ -20,17 +38,10 @@ Next-Generation communication systems like the [Iridium Next Project](https://ww
 
 The potential for Ka-band communication technologies are hampered by atmospheric absorption - since atmospheric penetration is a function of elevation angle, Ka-band satellites suffer greatly when close to the horizon. This motivated our research into conducting a statistical analysis of line-of-sight access parameters, like azimuthal and elevation angles of bearing, range, and relative velocity 
 
-<center>
-	<img src="../../images/proj-resources/rsl/plot1.jpg" alt="Testing" align="middle" height="480" width="980">
-</center>
 
 ## The Solution
 
 A simulations campaign was conducted using [Systems ToolKit](https://www.agi.com/products/stk/), modeling LEO satellites and line-of-site access across a one year period at 60 second time intervals. Satellites were chosen at 5 altitudes and 10 inclinations to the equatorial plane, with 10 ground stations spaced evenly with latitude at the longitude of Vancouver, British Columbia. STK generated an AER (Access, Elevation and Range) report in csv format describing our simulation results. 
 
 I wrote a package of software in MATLAB to import the raw csv and perform statistical analysis of key observational parameters: distributions of observing time, doppler shift, angular elevation above the horizon, and angular velocity with respect to a tracking satellite dish. The required handling several GB of raw data and organizing it into a tractable problem, which was accomplished by constructing a 3-dimensional space of our input parameters: altitude, elevation above equatorial plane, and latitude of groundstation. Overall there was about 1000 lines of code to import, clean, analyze, and present the data, and some features of MATLAB made the process a lot smoother. 
-
-<center>
-	<img src="../../images/proj-resources/rsl/plot2.jpg" alt="Testing" align="middle" height="480" width="980">
-</center>
 
