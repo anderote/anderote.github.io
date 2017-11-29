@@ -12,13 +12,13 @@ gallery:
   - url: /images/proj-resources/rsl/stk.jpg
     image_path: images/proj-resources/rsl/stk.jpg
     alt: "Running LEO Simulations"
-  - url: /images/proj-resources/rsl/plot2.jpg
-    image_path: images/proj-resources/rsl/plot2.jpg
+  - url: /images/proj-resources/rsl/plot2.JPG
+    image_path: images/proj-resources/rsl/plot2.JPG
     alt: "Summarizing Statistics for Line of Sight"
 
 header:
-  image: /images/proj-resources/rsl/plot1.jpg
-  teaser: /images/proj-resources/rsl/plot1.jpg
+  image: /images/proj-resources/rsl/plot1.JPG
+  teaser: /images/proj-resources/rsl/plot1.JPG
 
 ---
 
@@ -38,6 +38,7 @@ Next-Generation communication systems like the [Iridium Next Project](https://ww
 
 The potential for Ka-band communication technologies are hampered by atmospheric absorption - since atmospheric penetration is a function of elevation angle, Ka-band satellites suffer greatly when close to the horizon. This motivated our research into conducting a statistical analysis of line-of-sight access parameters, like azimuthal and elevation angles of bearing, range, and relative velocity 
 
+{% include gallery caption="Simulations in STK with results processed in MATLAB" %}
 
 ## The Solution
 

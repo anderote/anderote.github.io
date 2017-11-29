@@ -27,6 +27,8 @@ author: Andrew Cote
 
 In Summer of 2013 I worked at UBC's [Laboratory for Atomic Imaging Research](http://lair.phas.ubc.ca/) under a [Science Undergraduate Research Experience](http://www.phas.ubc.ca/undergraduate-nserc-usra) awarded by the University of British Columbia. LAIR is a condensed matter physics laboratory specializing in Scanning Tunneling Microscopy (STM) to investigate nano-scale organic photovoltaics and room temperature superconductivity. 
 
+{% include gallery caption="" %}
+
 ## Background
 
 STM's image atoms by bringing a tiny 'wedge' of crystal that tapers to a few atoms thick mere nanometers from the surface of a crystal, such that their electron clouds overlap. This means there is some reasonable chance of electrons tunneling from one surface to the other. By biasing a voltage either on the crystal surface or the atomic tip, and measuring the density of current as a function of applied voltage, scanning an interesting crystal or molecule with an STM tip can yield a wealth of information on the [electronic band structure](https://en.wikipedia.org/wiki/Electronic_band_structure) of your sample. 
