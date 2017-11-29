@@ -17,12 +17,9 @@ gallery:
     alt: "Late nights in the subterranean science dungeon"
 
 header:
-  image: /images/proj-resources/lair/fierce.jpg
+  image: /images/proj-resources/lair/stacks2.jpg
   teaser: /images/proj-resources/lair/stacks2.jpg
 
-
-title: "Statistical Analysis of LEO Satellites"
-excerpt: 
 author: Andrew Cote 
 ---
 
