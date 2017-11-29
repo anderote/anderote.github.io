@@ -23,4 +23,6 @@ header:
 
 You can read up more on this project *[here][1]*{: style="color: blue"}, a presentation I gave at the 2017 CUPC Physics conference in Ottawa.
 
+{% include gallery caption="The first two prototypes." %}
+
 [1]:{{ site.url }}/cv/rftransformer.pdf

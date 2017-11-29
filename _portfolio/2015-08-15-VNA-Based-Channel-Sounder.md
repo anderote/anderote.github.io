@@ -20,6 +20,8 @@ header:
 
 During the summer of 2015 I worked as Research Assistant at UBC's [Radio Science Laboratory](http://rsl.ece.ubc.ca/), after winning funding through the [NSERC Research Fellowship](http://www.nserc-crsng.gc.ca/index_eng.asp). The RSL conducts research RF-related research in a broad number of areas related to RF: Satellite Communications, Vehicle-to-Vehicle communications, Channel sounding, and others. As an undergraduate I was able to participate in a number of exciting and challenging projects to help advance the frontiers of RF science. This article describes one such project, using a Vector-Network Analyzer to perform Channel Sounding in the UBC campus. 
 
+{% include gallery caption="" %}
+
 ## Background Theory
 
 Channel sounding is a technique which measures the transmission characteristics of a radio environment, specifically to analze the [multipath effect](), which describes how a signal is reflected and refracted by objects in urban environments resulting in multiple 'copies' of the same signal arriving from point A to point B at different times. This produces position-dependent variations in signal strength and phase shift. Accurately understanding these effects enables us to better design wireless networks and leverage the multipath effect to drastically increase bandwidth and data transfer speeds in a [MIMO]() system. In a multipath system the wireless channel is frequency dependant, time dependant, and position dependant, therefore the direction of departure, arrival, time delay, and doppler shift are all important parameters to consider when designing MIMO networks. 
